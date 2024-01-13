@@ -37,7 +37,7 @@ export function byteToUint8Array(byte: number) {
 }
 
 export function uint32ToUint8Array(uint32: number) {
-    const buffer = new ArrayBuffer(8);
+    const buffer = new ArrayBuffer(4);
     const dataview = new DataView(buffer);
     dataview.setUint32(0, uint32);
     return new Uint8Array(dataview.buffer);
