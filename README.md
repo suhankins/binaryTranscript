@@ -102,6 +102,35 @@ Both have variable size.
     </tbody>
 </table>
 
+## Was it worth it?
+
+Not really.
+
+### Uncompressed
+
+When uncompressed we can clearly that just removing all unused information reduced file size by more than 2 times,
+though it does look like converting it to binary made it almost 4 times smaller.
+
+| File | Size |
+| --- | --- |
+| Original | 237 KB |
+| Binary | 56 KB |
+| Binary to JSON | 99 KB |
+
+But when we compress them...
+
+### Compressed
+
+...we can see that all we saved with this whole binary convertion is just 3 KB.
+
+| File | Size |
+| --- | --- |
+| Original | 72 KB |
+| Binary | 23 KB |
+| Binary to JSON | 27 KB |
+
+I guess that isn't too bad, but it is disappointing.
+
 ## License
 
 The Unlicense, except for `test.json`.
