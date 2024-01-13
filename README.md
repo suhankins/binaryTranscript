@@ -102,4 +102,8 @@ Both have variable size.
     </tbody>
 </table>
 
+## License
+
+The Unlicense, except for `test.json`.
+
 [^1]: I have no idea why does it include show notes. They aren't even used when you navigate from transcript to show notes: when you do that, it just downloads a new JSON file with show notes.
