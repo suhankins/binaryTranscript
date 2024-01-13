@@ -121,7 +121,7 @@ But when we compress them...
 
 ### Compressed
 
-...we can see that all we saved with this whole binary convertion is just 3 KB.
+...we can see that all we saved with this whole binary conversion is just 3 KB.
 
 | File | Size |
 | --- | --- |
